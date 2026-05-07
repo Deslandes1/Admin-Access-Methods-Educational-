@@ -42,16 +42,15 @@ st.markdown("### For authorized IT repair – preserve all your files")
 st.info("💡 Both methods **do not delete or damage your documents**. Your files remain safe.")
 
 # ---------- METHOD 1 ----------
-with st.expander("📌 Method 1 – Safe Mode with Command Prompt"):
-    st.markdown("""
-    **When to use:** You have physical access to the laptop and it boots normally, but you don't know the admin password.
-    
-    **What this does:** Enables the hidden built‑in Administrator account.
-    
-    ### Step‑by‑step:
-    1. **Restart** the laptop.
-    2. As soon as the Dell logo appears, repeatedly press **F8** until the **Advanced Boot Options** menu appears.
-       - *Alternative (Windows 10/11):* Hold **Shift** while clicking Restart → Troubleshoot → Advanced Options → Startup Settings → Restart → press **6** for Safe Mode with Command Prompt.
-    3. Select **Safe Mode with Command Prompt** and press Enter.
-    4. A Command Prompt window will open **as SYSTEM** (highest privilege).
-    5. Type the following command and press Enter:
+method1_text = """
+**When to use:** You have physical access to the laptop and it boots normally, but you don't know the admin password.
+
+**What this does:** Enables the hidden built‑in Administrator account.
+
+### Step‑by‑step:
+1. **Restart** the laptop.
+2. As soon as the Dell logo appears, repeatedly press **F8** until the **Advanced Boot Options** menu appears.
+   - *Alternative (Windows 10/11):* Hold **Shift** while clicking Restart -> Troubleshoot -> Advanced Options -> Startup Settings -> Restart -> press **6** for Safe Mode with Command Prompt.
+3. Select **Safe Mode with Command Prompt** and press Enter.
+4. A Command Prompt window will open **as SYSTEM** (highest privilege).
+5. Type the following command and press Enter:
